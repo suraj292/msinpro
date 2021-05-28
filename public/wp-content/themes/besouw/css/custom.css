@@ -1,0 +1,295 @@
+.collectie_prods .product a.btn-view{
+    display: none;
+}
+
+.check_form label span {
+	color: #333333 !important;
+}
+
+.page-numbers .prev, .page-numbers .next {
+	display: none;
+}
+
+.check_form .form-row label {
+	margin-bottom: 5px;
+}
+.checkout.woocommerce-checkout {
+	flex-direction: row-reverse;
+}
+@media (max-width: 991.98px) {
+	.checkout.woocommerce-checkout {
+		flex-direction: column-reverse;
+	}
+	.checkout.woocommerce-checkout .card.col-lg-7 {
+		margin-bottom: 20px;
+	}
+	.checkout.woocommerce-checkout .col-lg-5 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.elementor .product_tags img {
+	height: 15px;
+}
+
+.home_btns_wrap .elementor-button.elementor-size-sm {
+	font-size: 18px;
+}
+
+.lightbox-search{
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 0 15%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  background: none;
+}
+.lightbox-search input{
+  font-size: 50px;
+  border-style: solid;
+  height: auto;
+  border-width: 0 0 1px;
+  width: 100%;
+  border-color: #fff;
+  line-height: 1.5;
+  text-align: center;
+  background: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: "Open Sans", Sans-serif;
+  color: #fff;
+}
+.lightbox-search input:focus{
+  outline: none;
+}
+.fancybox-close-small svg{
+  display: none;
+}
+.fancybox-slide--html .fancybox-close-small{
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0;
+  right: 20px;
+  top: 50%;
+  transform: translateY(50%);
+}
+.fancybox-close-small:before{
+  position: absolute;
+  top: 0;
+  content: "";
+  border-radius: 2px;
+  right: 8px;
+  width: 3px;
+  height: 100%;
+  background: #fff;
+  transform: rotate(45deg);
+ }
+.fancybox-close-small:after{
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  content: "";
+  left: 9px;
+  width: 3px;
+  height: 100%;
+  background: #fff;
+  transform: rotate(-45deg);
+}
+.accordeon_wrap a.btn-filter{
+    display: none;
+}
+
+@media only screen and (max-width: 991px){
+    .product-container {
+      overflow: hidden;
+      padding-bottom: 100px;
+    }
+    .collectie_prods .product{
+        height: 50vw;
+    }
+    .collectie_prods .product_info,
+    .toegepaste_prods .product_info{
+        padding: 13px 10px;
+    }
+    .collectie_prods .product a.btn-view{
+        width: 40px;
+        height: 40px;
+        top: 0;
+        right: 0;
+        position: absolute;
+        display: block;
+    }
+    .collectie_prods .product a.btn-view:before{
+        top: 0;
+        right: 0;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0);
+        border-bottom-color: #000000;
+        border-width: 30px;
+        transform: rotate(45deg);
+        margin: -30px -30px 0 0;
+
+    }
+    .collectie_prods .product a.btn-view:after{
+        width: 16px;
+        height: 15px;
+        top: 6px;
+        right: 4px;
+        content: " ";
+        position: absolute;
+        background: url("../img/ico-lens.png") no-repeat;
+        background-size: 16px 15px;
+        z-index: 0;
+    }
+    .type-product:nth-child(odd) .product_descr{
+        left: 100%;
+        margin: 0 0 0 15px;
+        top: 0;
+        right: auto;
+        width: calc(100% + 28px);
+        padding: 5px 10px 15px;
+
+    }
+    .type-product:nth-child(odd) .product_descr:before{
+        right: 100%;
+        top: 66px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-right-color: #ffffff;
+        border-width: 13px;
+        z-index: 2;
+    }
+    .type-product:nth-child(odd) .product_descr:after{
+        box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.15);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 68px;
+        z-index: -1;
+        content: "";
+        transform: rotate(45deg);
+        right: 100%;
+        margin: 0 -11px 0 0;
+    }
+    .type-product:nth-child(even) .product_descr{
+        right: 100%;
+        margin: 0 15px 0 0;
+        top: 0;
+        left: auto;
+        width: calc(100% + 28px);
+        padding: 5px 10px 15px;
+    }
+    .type-product:nth-child(even) .product_descr:before{
+        left: 100%;
+        top: 66px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #ffffff;
+        border-width: 13px;
+    }
+    .type-product:nth-child(even) .product_descr:after{
+        box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.15);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 68px;
+        z-index: -1;
+        content: "";
+        transform: rotate(-135deg);
+        left: 100%;
+        margin: 0 0 0 -11px;
+    }
+    .color_filters{
+        justify-content: flex-start;
+    }
+    .accordeon_wrap {
+        position: fixed;
+        bottom: 0;        
+        right: 0;
+        left: 0;
+        z-index: 1002;
+    }
+    .accordeon_wrap a.btn-filter:hover,
+    .accordeon_wrap a.btn-filter.active-btn{
+        color: #000;
+        transition: all 0.2s ease-in;
+        border: 1px solid #000;
+        background: #fff url("../img/ico-filter.png") 13px 9px no-repeat;
+        background-size: 29px 21px;
+
+    }
+    .accordeon_wrap a.btn-filter:not(.active-btn),
+    .accordeon_wrap a.btn-filter{
+        position: absolute;
+        bottom: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        padding: 9px 18px 9px 54px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
+        border: 1px solid #252525;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in;
+        background: #252525 url("../img/ico-filter2.png") 13px 9px no-repeat;
+        background-size: 29px 21px;
+        display: block;
+
+
+    }
+    .accordeon{
+        margin: 0;
+        padding-bottom: 70px;
+    }
+
+    .accordeon_wrap.active .accordeon{
+        display: block;
+    }
+    .accordeon_wrap .accordeon{
+        display: none;
+    }
+    .accordeon_wrap.carpet_wrap{
+        position: inherit;
+    }
+    .accordeon.carpet{
+        display: block;
+    }
+    .product:hover .product_descr {
+        opacity: 0;
+        visibility: hidden;
+        cursor: default;
+    }
+    .product .product_descr.active {
+        opacity: 1;
+        visibility: visible;
+        cursor: pointer;
+    }
+
+}
+
+.wrapper{
+    /*overflow-x: hidden;*/
+    width: 100%;
+}
