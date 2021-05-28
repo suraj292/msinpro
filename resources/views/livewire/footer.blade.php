@@ -1,25 +1,4 @@
 <div>
-    <div class="subscribe_section">
-        <div class="container">
-            <form
-                action="http://besouw.us11.list-manage.com/subscribe/post?u=6d14c6da660a6271f3c1b6ff7&amp;id=48b2b8fe6e"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                class="validate subscribe_form" target="_blank" novalidate="">
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                       placeholder="email address">
-                <input type="submit" value="Get inspired" name="subscribe" id="mc-embedded-subscribe"
-                       class="bes_button"
-                       style="text-transform: uppercase; color: #fff; background: #000; border-color: #000;">
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                          name="b_6d14c6da660a6271f3c1b6ff7_48b2b8fe6e" tabindex="-1" value=""></div>
-            </form>
-        </div>
-    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -33,12 +12,14 @@
                             <div>
                                 <div>
                                     <div><strong>Van Besouw B.V.</strong></div>
-                                    <div>F/B-187, Lajpat Nagar, Sahibabad, Ghaziabad</div>
-                                    <div>(201005) Uttar Pradesh, India</div>
+                                    <div>{{implode(", ", $address)}}</div>
+                                    <div>{{$contacts->pin_code!=''?'('.$contacts->pin_code.')':''}}
+                                    {{$contacts->state!=''? $contacts->state.', '.$contacts->country:''}}
+                                    </div>
                                 </div>
 
-                                <div>T : <a href="tel:+919871373964">+91 9871373964</a></div>
-                                <div>M: <a href="mailto:lalit@msinpro.com">lalit@msinpro.com</a></div>
+                                <div>T : <a href="tel:+919871373964">+91 {{$contacts->phone_no}}</a></div>
+                                <div>M: <a href="mailto:lalit@msinpro.com">{{$contacts->email_id}}</a></div>
                                 <div>
                                     <a style="display: flex; width: 25px;" href="https://www.linkedin.com/company/18020584/admin/">Linkedin:
                                         <img src="https://besouw.nl/wp-content/themes/besouw/img/in.svg" alt="icon" style="padding-left: 10px;">

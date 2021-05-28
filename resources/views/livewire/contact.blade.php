@@ -101,16 +101,9 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix"><p><strong>VISIT
                                                                 FRAMEWORK</strong><br/><strong>(by appointment
-                                                                only)</strong><br/>F/B-187, Lajpat Nagar, Sahibabad, Ghaziabad<br/>(201005) Uttar Pradesh, India</p>
-                                                        <p><strong>POSTADRES</strong><br/>P.O. Box 102<br/>8280 AC
-                                                            Genemuiden</p>
-                                                        <p><span
-                                                                style="box-sizing: inherit; font-weight: bold; line-height: inherit; color: #0a0a0a; font-size: 15px; text-align: start; background-color: #fefefe;">Chamber of Commerce</span><span
-                                                                style="color: #0a0a0a; font-size: 15px; text-align: start; background-color: #fefefe;"> 08219843</span><br
-                                                                style="box-sizing: inherit; color: #0a0a0a; font-size: 15px; text-align: start; background-color: #fefefe;"/><span
-                                                                style="box-sizing: inherit; font-weight: bold; line-height: inherit; color: #0a0a0a; font-size: 15px; text-align: start; background-color: #fefefe;">VAT</span><span
-                                                                style="color: #0a0a0a; font-size: 15px; text-align: start; background-color: #fefefe;"> NL822053731B01</span>
-                                                        </p></div>
+                                                                only)</strong><br/>{{implode(", ", $address)}}<br/>{{$contacts->pin_code!=''?'('.$contacts->pin_code.')':''}}
+                                                            {{$contacts->state!=''? $contacts->state.', '.$contacts->country:''}}</p>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -141,29 +134,6 @@
                                 data-id="51c0f251" data-element_type="section" id="commercieel"
                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7011b2a4"
-                                         data-id="7011b2a4" data-element_type="column"
-                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-7b13b39f elementor-widget elementor-widget-spacer"
-                                                 data-id="7b13b39f" data-element_type="widget"
-                                                 data-widget_type="spacer.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-spacer">
-                                                        <div class="elementor-spacer-inner"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-21cee447 elementor-widget elementor-widget-html"
-                                                 data-id="21cee447" data-element_type="widget"
-                                                 data-widget_type="html.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="favorite_btn elementor-header-image"
-                                                         data-moodwall="../../wp-content/uploads/2020/02/Afbeelding1_web.jpg"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69f30ee9"
                                          data-id="69f30ee9" data-element_type="column"
                                          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -190,8 +160,8 @@
                                                  data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix"><p><strong>Email </strong><a
-                                                                href="mailto:lalit@msinpro.com">lalit@msinpro.com</a><br/><strong>Telephone </strong><a
-                                                                href="tel:+919871373964">+91 9871373964</a><br/></p></div>
+                                                                href="mailto:lalit@msinpro.com">{{$contacts->email_id}}</a><br/><strong>Telephone </strong><a
+                                                                href="tel:+919871373964">+91 {{$contacts->phone_no}}</a><br/></p></div>
                                                 </div>
                                             </div>
                                         </div>
