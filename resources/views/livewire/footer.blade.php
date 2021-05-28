@@ -33,12 +33,12 @@
                             <div>
                                 <div>
                                     <div><strong>Van Besouw B.V.</strong></div>
-                                    <div>Sasdijk 14</div>
-                                    <div>8281 BM Genemuides</div>
+                                    <div>F/B-187, Lajpat Nagar, Sahibabad, Ghaziabad</div>
+                                    <div>(201005) Uttar Pradesh, India</div>
                                 </div>
 
-                                <div>T : <a href="tel:0031383858818">+31 (0)38 385 8818</a></div>
-                                <div>M: <a href="mailto:info@besouw.nl">info@besouw.nl</a></div>
+                                <div>T : <a href="tel:+919871373964">+91 9871373964</a></div>
+                                <div>M: <a href="mailto:lalit@msinpro.com">lalit@msinpro.com</a></div>
                                 <div>
                                     <a style="display: flex; width: 25px;" href="https://www.linkedin.com/company/18020584/admin/">Linkedin:
                                         <img src="https://besouw.nl/wp-content/themes/besouw/img/in.svg" alt="icon" style="padding-left: 10px;">
@@ -56,22 +56,22 @@
                             <ul id="menu-over-ons" class="menu">
                                 <li id="menu-item-2683"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2683">
-                                    <a href="historie/index.html">Van Besouw History</a></li>
+                                    <a href="#">Van Besouw History</a></li>
                                 <li id="menu-item-2681"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2681">
-                                    <a href="de-fabriek/index.html">Factory</a></li>
+                                    <a href="#">Factory</a></li>
                                 <li id="menu-item-2682"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2682">
-                                    <a href="productietechnieken/index.html">Production techniques</a></li>
+                                    <a href="#">Production techniques</a></li>
                                 <li id="menu-item-2680"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2680">
-                                    <a href="events/index.html">Events</a></li>
+                                    <a href="#">Events</a></li>
                                 <li id="menu-item-2684"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2684">
-                                    <a href="cijfers-van-naam/index.html">Numbers of name</a></li>
+                                    <a href="#">Numbers of name</a></li>
                                 <li id="menu-item-2679"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2679">
-                                    <a href="dealers/index.html">Dealers</a></li>
+                                    <a href="#">Dealers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,13 +81,13 @@
             <div class="sub_footer">
                 <li id="custom_html-8" class="widget_text widget widget_custom_html">
                     <div class="textwidget custom-html-widget">
-                        <div>© 2021 FROM BESOUW | <a href="https://antheunis.online/" class="test">BY ANTHEUNIS
+                        <div>© 2021 FROM MSINPRO | <a href="#" class="test">BY ANTHEUNIS
                                 ONLINE</a></div>
 
                         <nav class="foot_sub_nav">
-                            <a href="https://besouw.nl/algemene-voorwaarden/">General terms and conditions</a> | <a
-                                href="https://besouw.nl/privacy-policy/">privacy policy</a> | <a
-                                href="sitemap.html">sitemap</a>
+                            <a href="#">General terms and conditions</a> | <a
+                                href="#">privacy policy</a> | <a
+                                href="#">sitemap</a>
                         </nav>
                     </div>
                 </li>

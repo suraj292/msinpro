@@ -101,7 +101,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix"><p><strong>VISIT
                                                                 FRAMEWORK</strong><br/><strong>(by appointment
-                                                                only)</strong><br/>Sasdijk 14<br/>8281 BM Genemuiden</p>
+                                                                only)</strong><br/>F/B-187, Lajpat Nagar, Sahibabad, Ghaziabad<br/>(201005) Uttar Pradesh, India</p>
                                                         <p><strong>POSTADRES</strong><br/>P.O. Box 102<br/>8280 AC
                                                             Genemuiden</p>
                                                         <p><span
@@ -190,9 +190,8 @@
                                                  data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix"><p><strong>Email </strong><a
-                                                                href="mailto:info@besouw.nl">info@besouw.nl</a><br/><strong>Telephone </strong><a
-                                                                href="tel:00310383858818">+31 (0)38 385 88
-                                                                18</a><br/><strong>Fax</strong> +31 (0)38 385 88 17</p></div>
+                                                                href="mailto:lalit@msinpro.com">lalit@msinpro.com</a><br/><strong>Telephone </strong><a
+                                                                href="tel:+919871373964">+91 9871373964</a><br/></p></div>
                                                 </div>
                                             </div>
                                         </div>
